@@ -8,7 +8,7 @@ buf = fs.readFileSync('index.html');
 var msg = buf.toString();
 
 app.get('/', function(request, response) {
-  response.send("fuck you");
+  response.send('fuck you');
 });
 
 var port = process.env.PORT || 5000;
